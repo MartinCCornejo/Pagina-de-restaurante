@@ -9,15 +9,15 @@
 
 :root {
     --primary-color: #fea116;
-    --main-color: #f1f8ff;
-    --black-color: #0f172b;
+    --white-color: #f1f8ff;
+    --darkblue-color: #0f172b;
 }
 
 ul li {display: inline-block;}
 h1, h2, h3, .logo {font-family: 'Nunito';}
 p, a, footer{font-family: 'Heebo';}
 section {padding: 40px 20px 0 20px;}
-main {background: var(--main-color);}
+main {background: var(--white-color);}
 hr {margin: 10px 0;}
 
 #menu-btn{display: none;}
@@ -62,7 +62,7 @@ h4 {
     justify-content: center;
     align-items: center;
     min-height: 85vh;
-    background: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+    background: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
     url(../img/bg-banner.jpg) no-repeat center center;
     background-size: cover;
     padding-top: 80px;
@@ -251,7 +251,7 @@ h4 {
 
 .contacto .contenedor-form{
     width: 50vw;
-    background: var(--black-color);
+    background: var(--darkblue-color);
     padding: 20px;
     height: 32rem;
 }
@@ -359,7 +359,7 @@ h4 {
 
 /* Footer */
 footer{
-    background: var(--black-color);
+    background: var(--darkblue-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -419,8 +419,7 @@ footer .redes a{
         height: 100vh;
         background: #222;
         text-align: right;
-        display: flex;
-        align-items: center;
+        padding-top: 7rem;
     }
     .navbar.active{
         right: 0;
