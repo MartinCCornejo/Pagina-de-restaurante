@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="parrillada, asado, carnes a la parrilla, restaurante, menu de parrillada">
+    <meta name="description" content="Descubre la auténtica experiencia de la parrillada en nuestro restaurante especializado en carnes a la parrilla.">
+    <meta name="author" content="Martín Cristian Cornejo">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +25,6 @@
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
-        <div id="menu-btn"><i class="fa-solid fa-bars"></i></div>
     </header>
 
     <main>
@@ -182,18 +184,18 @@
                 <form class="contact-form">
                     <div class="top">
                         <div class="caja-input">
-                            <h5>Nombre y apellido:</h5>
-                            <input type="text" id="datos-input" placeholder="Ingrese un nombre" required>
+                            <label for="datos-input">Nombre y apellido:</label>
+                            <input type="text" id="datos-input" placeholder="Ingrese un nombre" maxlength="40" minlength="5" required>
                         </div>
                         <div class="caja-input">
-                            <h5>Email:</h5>
-                            <input type="email" id="datos-input" placeholder="usuario@usuario.com" required>
+                            <label for="datos-input">Email:</label>
+                            <input type="email" id="datos-input" placeholder="usuario@usuario.com" maxlength="320" minlength="10" required>
                         </div>
                     </div>
                     <div class="bottom">
                         <div class="caja-input">
-                            <h5>Consulta:</h5>
-                            <textarea id="textarea" placeholder="Ingrese su consulta aquí"></textarea>
+                            <label for="consulta">Consulta:</label>
+                            <textarea id="consulta" placeholder="Ingrese su consulta aquí" maxlength="250" minlength="15" required></textarea>
                         </div>
                         <input type="submit" value="ENVIAR CONSULTA" id="btn">
                     </div>
@@ -234,6 +236,7 @@
         </section>
     </main>
 
+    <!-- Footer  -->
     <footer>
         <div class="caja info">
             <h4>Información</h4>
@@ -253,13 +256,10 @@
         </div>
         <div class="caja redes">
             <h4>Nuestras redes</h4>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.x.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank""><i class="fab fa-facebook"></i></a>
         </div>
     </footer>
-    
-    
-    <script src="./js/script.js"></script>
 </body>
 </html>
