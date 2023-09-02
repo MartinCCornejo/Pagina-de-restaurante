@@ -520,9 +520,9 @@ footer .redes a{
 
     .contacto .contenedor-form h2 {font-size: 1.1rem;}
 
-    .contenedor-form .contact-form h5 {font-size: 1rem;}
+    .contenedor-form .contact-form label{font-size: 1rem;}
 
-    #datos-input, #textarea, #btn {font-size: 15px;}
+    #datos-input, #consulta, #btn {font-size: 15px;}
 
     .seccion-final .contenedor .caja {
         padding: 40px 30px;
